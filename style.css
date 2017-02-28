@@ -1,0 +1,70 @@
+/*setup page with clean template*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*element-level styling*/
+body{
+	height:100%;
+}
+
+/*class-level styling*/
+.top_panel{
+	width:100%;
+	float:left;
+	position: fixed;
+}
+	.nav{
+		width: 70%;
+		height: 100px;
+		float: left;
+		background-color: #737373;
+	}
+		.nav_button{
+			display: inline-block;
+			font-size: 50px;
+			margin-left: 110px;
+			margin-top: 10px;
+		}
+	.player{
+		width: 30%;
+		height: 100px;
+		float: left;
+		background-color: #1A9A74;
+	}
+
+.left_panel{
+	width:20%;
+	float:left;
+	margin-top: 100px;
+}
+
+	.logo{
+		height: 350px;
+		background-color: #0C0B0B;
+	}
+
+	.new_episodes{
+		min-height: 500px;
+		background-color: #697C5D;
+	}
+
+.blog{
+	width: 80%;
+	min-height: 850px;
+	float: left;
+	margin-top: 100px;
+	background-color: #CD7043;
+}
+
+.social{
+	/*display:none;*/
+	width: 100%;
+	height: 100px;
+	clear:both;
+	background-color: #B5BC4C;
+}
+
+
+
