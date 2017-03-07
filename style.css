@@ -5,13 +5,28 @@
 }
 
 /*element-level styling*/
-body{
-	height:100%;
+html, body{
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+}
+
+p{
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: #FFF2F2;
 }
 
 /*class-level styling*/
 
 .left_panel{
+	overflow: hidden;
+	height:100%;
 	width:20%;
 	float:left;
 }
@@ -22,48 +37,66 @@ body{
 	}
 
 	.new_episodes{
-		min-height: 600px;
-		height: 100%;
-		background-color: #697C5D;
+		width:100%;
+		max-height:600px;
+		overflow:auto;
+		padding-right: 17px;
+		padding-bottom: 50px;
+		background-color: #1E4740;
+		
 	}
 .right_panel{
 	width:80%;
+	height:100%;
 	float:right;
+	overflow: hidden;
+	background-color: #E50E0E;
 }
 
 	.top_panel{
 		width:100%;
-		float:left;
 		position: fixed;
+		overflow: hidden;
 	}
 		.nav{
-			width: 70%;
+			width: 60%;
 			height: 100px;
 			float: left;
-			background-color: #737373;
+			background-color: #181414;
 		}
 			.nav_button{
-				display: inline-block;
-				font-size: 50px;
-				margin-left: 110px;
-				margin-top: 10px;
+				list-style-type: none;
+				float:left;
+				font-size: 30px;
+				color: #FFF2F2;
+				margin-top: 30px;
+				margin-left:120px;
 			}
+
+			.social{
+				float:right;
+				height: 100px;
+				width: 20%;
+				background-color: #181414;
+				
+			}
+
 		.player{
-			width: 30%;
+			width: 40%;
 			height: 100px;
 			float: left;
 			background-color: #1A9A74;
 		}
 	.blog{
-		min-height: 1000px;
-		height: 100%;
-		background-color: #831DE1;
+		width: 100%;
+		padding-right: 17px;
+		margin-top: 100px;
+		max-height: 850px;
+		overflow: auto;
+		background-color: #373A59;
+		clear: both;
 	}
 
-	.social{
-		background-color: #B5BC4C;
-		height:100px;
-	}
 
 
 
