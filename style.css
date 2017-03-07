@@ -17,6 +17,7 @@ p{
 
 a{
 	text-decoration: none;
+	color: #FFF2F2;
 }
 a:visited{
 	color: #FFF2F2;
@@ -24,10 +25,12 @@ a:visited{
 
 /*class-level styling*/
 
+/*layout styling*/
 .left_panel{
 	overflow: hidden;
 	height:100%;
 	width:20%;
+	background-color: #1E4740;
 	float:left;
 }
 
@@ -42,9 +45,28 @@ a:visited{
 		overflow:auto;
 		padding-right: 17px;
 		padding-bottom: 50px;
-		background-color: #1E4740;
-		
 	}
+
+		.episode_display{
+			padding: 10px;
+		}
+
+			.cover_art{
+				padding: 30px 30px 10px 30px;
+				height:100px;
+				width:100px;
+				float:left;
+			}
+			
+			.episode_title{
+				padding:30px 0px 10px 10px;
+			}
+
+			.episode_description{
+				font-size: 18px;
+				padding:0px 0px 10px 10px;
+			}
+
 .right_panel{
 	width:80%;
 	height:100%;
@@ -59,7 +81,7 @@ a:visited{
 		overflow: hidden;
 	}
 		.nav{
-			width: 60%;
+			width: 55%;
 			height: 100px;
 			float: left;
 			background-color: #181414;
@@ -70,16 +92,29 @@ a:visited{
 				font-size: 30px;
 				color: #FFF2F2;
 				margin-top: 30px;
-				margin-left:120px;
+				margin-left:90px;
 			}
 
 			.social{
 				float:right;
-				height: 100px;
-				width: 20%;
+				position:relative;
+				top:45px;
+				width: 25%;
 				background-color: #181414;
-				
+				margin-right: 20px;
 			}
+
+				.contact_button{
+					list-style-type: none;
+					float: left;
+					position:relative;
+					top:25px;
+					margin-left: 20px;
+				}
+
+				.social_icon{
+					float:right;
+				}
 
 		.player{
 			width: 40%;
@@ -87,9 +122,22 @@ a:visited{
 			float: left;
 			background-color: #1A9A74;
 		}
+
+			.player_cover_art{
+				height: 100px;
+				width:100px;
+				float: left;
+			}
+
+			.audio{
+				position: relative;
+				top:40px;
+				left:10px;
+			}
+
 	.blog{
 		width: 100%;
-		padding-right: 17px;
+		padding: 30px 30px 30px 15px;
 		margin-top: 100px;
 		max-height: 850px;
 		overflow: auto;
@@ -97,6 +145,14 @@ a:visited{
 		clear: both;
 	}
 
+		.blog_post{
+			margin: 50px 70px 70px 70px;
+		}
+	
+		.blog_photo{
 
+		}
+
+/*general styling*/
 
 
