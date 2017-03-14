@@ -13,6 +13,7 @@ html, body{
 
 p{
 	font-size: 30px;
+	color: #FFF2F2;
 }
 
 a{
@@ -23,6 +24,17 @@ a:visited{
 	color: #FFF2F2;
 }
 
+h1{
+	color: #FFF2F2;
+}
+
+h2{
+	color: #FFF2F2;
+}
+
+figcaption{
+	color: #FFF2F2;
+}
 /*class-level styling*/
 
 /*layout styling*/
@@ -30,7 +42,7 @@ a:visited{
 	overflow: hidden;
 	height:100%;
 	width:20%;
-	background-color: #1E4740;
+	background-color: #181414;
 	float:left;
 }
 
@@ -78,7 +90,6 @@ a:visited{
 	.top_panel{
 		width:100%;
 		position: fixed;
-		overflow: hidden;
 	}
 		.nav{
 			width: 55%;
@@ -120,7 +131,7 @@ a:visited{
 			width: 40%;
 			height: 100px;
 			float: left;
-			background-color: #1A9A74;
+			background-color: #181414;
 		}
 
 			.player_cover_art{
@@ -141,18 +152,121 @@ a:visited{
 		margin-top: 100px;
 		max-height: 850px;
 		overflow: auto;
-		background-color: #373A59;
+		background-color: #181414;
 		clear: both;
 	}
 
 		.blog_post{
 			margin: 50px 70px 70px 70px;
 		}
-	
-		.blog_photo{
 
+		.written_by{
+			color: #FFF2F2;
 		}
 
-/*general styling*/
+	.shows{
+		width: 100%;
+		padding: 20px 30px 30px 15px;
+		margin-top: 100px;
+		max-height: 850px;
+		min-height: 817px;
+		overflow: scroll;
+		background-color: #181414;
+		clear: both;
+
+	}
+
+		.show_display{
+			height:400px;
+			width:850px;
+			margin: 20px auto;
+			padding:10px;
+		}
+
+			.show_people{
+				float:left;
+				margin-left:20px; 
+				margin-top: 20px;
+			}
+
+				.people_picture{
+					height: 200px;
+					width: 125px;
+				}
+			.show_text{
+				font-size: 22px;
+				padding: 20px;
+			}
+
+	.people{
+		width: 100%;
+		min-height: 817px;
+		max-height: 850px;
+		background-color: #181414;
+		margin-top: 100px;
+		padding: 20px 30px 30px 15px;
+		overflow: scroll;
+		clear:both;
+	}
+
+		.people_display{
+			height:400px;
+			width:850px;
+			margin:20px 0 30px 100px;
+			padding:60px 0 0 0;
+		}
+			
+			.people_title{
+				margin:25px 0 20px 0;
+			}
+
+			.people_display_picture{
+				height:300px;
+				width: 200px;
+				margin:30px 30px 0 0;
+				float: left;
+			}
+
+			.people_text{
+				padding:0 25px 0 0;
+			}
+	.about{
+		padding: 20px 30px 30px 15px;
+		background-color: #181414;
+		margin-top: 100px;
+		width: 100%;
+		min-height: 817;
+	}
+
+	.contact_area{
+		padding: 20px 30px 30px 15px;
+		background-color: #181414;
+		margin-top: 100px;
+		width: 100%;
+		min-height: 817;
+	}
+
+/*ID's*/
+#blog_button{
+	display:none;
+}
+
+#store_button{
+	display:none;
+}
+
+
+#show_art{
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+	float:left;
+}
+
+#top_person{
+	margin-top: -60px;
+}
+
+
 
 
