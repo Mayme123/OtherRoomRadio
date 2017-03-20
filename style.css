@@ -12,12 +12,14 @@ html, body{
 }
 
 p{
+	font-family: verdana;
 	font-size: 30px;
 	color: #FFF2F2;
 }
 
 a{
 	text-decoration: none;
+	font-family: verdana;
 	color: #FFF2F2;
 }
 a:visited{
@@ -25,21 +27,25 @@ a:visited{
 }
 
 h1{
+	font-family: verdana;
 	color: #FFF2F2;
 }
 
 h2{
+	font-family: verdana;
 	color: #FFF2F2;
 }
 
 figcaption{
+	font-family: verdana;
 	color: #FFF2F2;
 }
 /*class-level styling*/
 
 /*layout styling*/
 .left_panel{
-	overflow: hidden;
+	overflow-y: scroll;
+	position:relative;
 	height:100%;
 	width:20%;
 	background-color: #181414;
@@ -52,31 +58,32 @@ figcaption{
 	}
 
 	.new_episodes{
-		width:100%;
-		max-height:600px;
-		overflow:auto;
-		padding-right: 17px;
-		padding-bottom: 50px;
+		border:3px solid red;
+		box-sizing: border-box;
+		width: 80%;
+		height: 100%;
+		min-height: 800px;
+		position:absolute;
+		overflow-y:scroll;
+		right: -17px;
+		left:17px;
 	}
 
-		.episode_display{
-			padding: 10px;
-		}
 
+		.episode_display{
+			background-color: rgba(103, 61, 7, 0.25);
+			height:150px;
+		}
 			.cover_art{
-				padding: 30px 30px 10px 30px;
-				height:100px;
-				width:100px;
-				float:left;
-			}
-			
+				height:150px;
+				width:150px;
+				float:left;				}
+				
 			.episode_title{
-				padding:30px 0px 10px 10px;
 			}
 
 			.episode_description{
 				font-size: 18px;
-				padding:0px 0px 10px 10px;
 			}
 
 .right_panel{
@@ -84,18 +91,19 @@ figcaption{
 	height:100%;
 	float:right;
 	overflow: hidden;
-	background-color: #E50E0E;
+	background-color: #2C2929;
 }
 
 	.top_panel{
 		width:100%;
 		position: fixed;
+		overflow: hidden;
 	}
 		.nav{
 			width: 55%;
 			height: 100px;
 			float: left;
-			background-color: #181414;
+			background-color: rgba(103, 61, 7, 0.01);
 		}
 			.nav_button{
 				list-style-type: none;
@@ -103,16 +111,14 @@ figcaption{
 				font-size: 30px;
 				color: #FFF2F2;
 				margin-top: 30px;
-				margin-left:90px;
+				margin-left:130px;
 			}
 
 			.social{
 				float:right;
 				position:relative;
-				top:45px;
+				top:55px;
 				width: 25%;
-				background-color: #181414;
-				margin-right: 20px;
 			}
 
 				.contact_button{
@@ -131,7 +137,7 @@ figcaption{
 			width: 40%;
 			height: 100px;
 			float: left;
-			background-color: #181414;
+			background-color: rgba(103, 61, 7, 0.15);
 		}
 
 			.player_cover_art{
@@ -148,10 +154,10 @@ figcaption{
 
 	.blog{
 		width: 100%;
-		padding: 30px 30px 30px 15px;
+		padding: 20px 30px 30px 15px;
 		margin-top: 100px;
-		max-height: 850px;
-		overflow: auto;
+		min-height: 817px;
+		overflow-y: scroll;
 		background-color: #181414;
 		clear: both;
 	}
@@ -161,6 +167,7 @@ figcaption{
 		}
 
 		.written_by{
+			font-family: verdana;
 			color: #FFF2F2;
 		}
 
