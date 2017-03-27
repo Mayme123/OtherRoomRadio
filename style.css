@@ -6,8 +6,9 @@
 
 /*element-level styling*/
 html, body{
-	width:100%;
-	height: 100%;
+	/* width:100%; */
+	/* height: 100%; */
+	/* overflow: hidden; */
 }
 
 p{
@@ -51,15 +52,20 @@ figcaption{
 }
 
 	.logo{
-		height: 40%;
+		min-height: 300px;
+		min-width: 300px;
 		background-image: url("img/otherroomdraft.jpg");
 	}
 
 	.new_episodes{
+		position:relative;
 		border:3px solid red;
 		height:60%;
 		width: 100%;
+		padding-right: 17px;
+		padding-bottom: 17px;
 		overflow: scroll;
+		left: 15px;
 	}
 
 
@@ -67,6 +73,7 @@ figcaption{
 			border: 3px solid blue;
 			background-color: rgba(103, 61, 7, 0.55);
 			height:150px;
+			margin-top: 10px;
 			overflow: hidden;
 		}
 			.cover_art{
@@ -82,17 +89,22 @@ figcaption{
 			}
 
 .right_panel{
+	/* position: relative; */
 	width:80%;
 	height:100%;
 	float:right;
-	overflow: hidden;
+	overflow: scroll;
 	background-color: #2C2929;
+	/* margin-right: 17px; */
+	/* right: -30px; */
 }
 
 	.top_panel{
 		width:100%;
 		position: fixed;
 		overflow: hidden;
+		z-index: 1;
+		background-color: black;
 	}
 		.nav{
 			width: 55%;
@@ -148,13 +160,14 @@ figcaption{
 			}
 
 	.blog{
+		/* position: relative; */
 		width: 100%;
 		padding: 20px 30px 30px 15px;
 		margin-top: 100px;
-		min-height: 817px;
+		/* min-height: 817px; */
 		overflow-y: scroll;
-		background-color: #181414;
-		clear: both;
+		/* background-color: #181414; */
+		/* clear: both; */
 	}
 
 		.blog_post{
