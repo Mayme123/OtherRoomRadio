@@ -6,9 +6,8 @@
 
 /*element-level styling*/
 html, body{
-	/* width:100%; */
-	/* height: 100%; */
-	/* overflow: hidden; */
+	width:100%;
+	height: 100%;
 }
 
 p{
@@ -44,33 +43,25 @@ figcaption{
 
 /*layout styling*/
 .left_panel{
-	overflow: hidden;
-	height:100%;
 	width:20%;
-	background-color: #181414;
 	float:left;
+	position:fixed;
 }
 
 	.logo{
-		min-height: 300px;
-		min-width: 300px;
+		width: 381px;
+    	height: 349px;
 		background-image: url("img/otherroomdraft.jpg");
 	}
 
 	.new_episodes{
 		position:relative;
-		border:3px solid red;
-		height:60%;
+		top:-6px;
 		width: 100%;
-		padding-right: 17px;
-		padding-bottom: 17px;
-		overflow: scroll;
-		left: 15px;
 	}
 
 
 		.episode_display{
-			border: 3px solid blue;
 			background-color: rgba(103, 61, 7, 0.55);
 			height:150px;
 			margin-top: 10px;
@@ -89,14 +80,9 @@ figcaption{
 			}
 
 .right_panel{
-	/* position: relative; */
 	width:80%;
-	height:100%;
 	float:right;
-	overflow: scroll;
 	background-color: #2C2929;
-	/* margin-right: 17px; */
-	/* right: -30px; */
 }
 
 	.top_panel{
@@ -124,7 +110,8 @@ figcaption{
 			.social{
 				float:right;
 				position:relative;
-				top:55px;
+				top:50px;
+				right: -470px;
 				width: 25%;
 			}
 
@@ -141,6 +128,7 @@ figcaption{
 				}
 
 		.player{
+			display: none;
 			width: 40%;
 			height: 100px;
 			float: left;
@@ -160,14 +148,9 @@ figcaption{
 			}
 
 	.blog{
-		/* position: relative; */
 		width: 100%;
 		padding: 20px 30px 30px 15px;
 		margin-top: 100px;
-		/* min-height: 817px; */
-		overflow-y: scroll;
-		/* background-color: #181414; */
-		/* clear: both; */
 	}
 
 		.blog_post{
@@ -183,9 +166,6 @@ figcaption{
 		width: 100%;
 		padding: 20px 30px 30px 15px;
 		margin-top: 100px;
-		max-height: 850px;
-		min-height: 817px;
-		overflow: scroll;
 		background-color: #181414;
 		clear: both;
 
@@ -215,12 +195,9 @@ figcaption{
 
 	.people{
 		width: 100%;
-		min-height: 817px;
-		max-height: 850px;
 		background-color: #181414;
 		margin-top: 100px;
 		padding: 20px 30px 30px 15px;
-		overflow: scroll;
 		clear:both;
 	}
 
