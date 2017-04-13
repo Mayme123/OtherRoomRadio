@@ -10,6 +10,10 @@ html, body{
 	height: 100%;
 }
 
+body{
+	background-color: #181414;
+}
+
 p{
 	font-family: verdana;
 	font-size: 30px;
@@ -62,9 +66,9 @@ figcaption{
 
 
 		.episode_display{
-			background-color: rgba(103, 61, 7, 0.55);
+			background-color: #271300;
 			height:150px;
-			margin-top: 10px;
+			margin-top: 40px;
 			overflow: hidden;
 		}
 			.cover_art{
@@ -82,7 +86,6 @@ figcaption{
 .right_panel{
 	width:80%;
 	float:right;
-	background-color: #2C2929;
 }
 
 	.top_panel{
@@ -90,7 +93,7 @@ figcaption{
 		position: fixed;
 		overflow: hidden;
 		z-index: 1;
-		background-color: black;
+		background-color: #271300;
 	}
 		.nav{
 			width: 55%;
@@ -110,8 +113,8 @@ figcaption{
 			.social{
 				float:right;
 				position:relative;
+				right:20px;
 				top:50px;
-				right: -470px;
 				width: 25%;
 			}
 
@@ -128,7 +131,6 @@ figcaption{
 				}
 
 		.player{
-			display: none;
 			width: 40%;
 			height: 100px;
 			float: left;
@@ -148,7 +150,6 @@ figcaption{
 			}
 
 	.blog{
-		width: 100%;
 		padding: 20px 30px 30px 15px;
 		margin-top: 100px;
 	}
@@ -163,7 +164,6 @@ figcaption{
 		}
 
 	.shows{
-		width: 100%;
 		padding: 20px 30px 30px 15px;
 		margin-top: 100px;
 		background-color: #181414;
@@ -194,7 +194,6 @@ figcaption{
 			}
 
 	.people{
-		width: 100%;
 		background-color: #181414;
 		margin-top: 100px;
 		padding: 20px 30px 30px 15px;
@@ -226,7 +225,6 @@ figcaption{
 		padding: 20px 30px 30px 15px;
 		background-color: #181414;
 		margin-top: 100px;
-		width: 100%;
 		min-height: 817;
 	}
 
@@ -234,7 +232,6 @@ figcaption{
 		padding: 20px 30px 30px 15px;
 		background-color: #181414;
 		margin-top: 100px;
-		width: 100%;
 		min-height: 817;
 	}
 
