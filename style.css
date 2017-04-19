@@ -29,9 +29,13 @@ a:visited{
 	color: #ECECED;
 }
 
+h2>a:visited{
+	color: #9C914F;
+}
+
 h1{
 	font-family: verdana;
-	color: #ECECED;
+	color: #9C914F;
 }
 
 h2{
@@ -111,7 +115,7 @@ figcaption{
 			.social{
 				float:right;
 				position:relative;
-				right:20px;
+				right:-472px;
 				top:50px;
 				width: 25%;
 			}
@@ -159,7 +163,7 @@ figcaption{
 
 		.written_by{
 			font-family: verdana;
-			color: #FFF2F2;
+			color: #CECECE;
 		}
 
 	.shows{
