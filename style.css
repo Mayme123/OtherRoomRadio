@@ -57,8 +57,8 @@ figcaption{
 }
 
 	.logo{
-		width: 381px;
-    	height: 349px;
+		max-width: 100%;
+    	height: auto;
 	}
 
 	.new_episodes{
@@ -86,7 +86,7 @@ figcaption{
 			}
 
 .right_panel{
-	width:80%;
+	margin-left: 20%;
 	float:right;
 }
 
