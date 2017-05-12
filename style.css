@@ -62,6 +62,7 @@ figcaption{
 	}
 
 	.new_episodes{
+		display:none;
 		position:relative;
 		top:-6px;
 		width: 100%;
