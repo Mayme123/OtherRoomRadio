@@ -1,0 +1,264 @@
+/*setup page with clean template*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*element-level styling*/
+html, body{
+	width:100%;
+	height: 100%;
+}
+
+body{
+	background-color: #171717;
+}
+
+p{
+	font-family: verdana;
+	font-size: 30px;
+	color: #ECECED;
+}
+
+a{
+	text-decoration: none;
+	font-family: verdana;
+	color: #ECECED;
+}
+a:visited{
+	color: #ECECED;
+}
+
+h2>a:visited{
+	color: #9C914F;
+}
+
+h1{
+	font-family: verdana;
+	color: #9C914F;
+}
+
+h2{
+	font-family: verdana;
+	color: #ECECED;
+}
+
+figcaption{
+	font-family: verdana;
+	color: #ECECED;
+}
+/*class-level styling*/
+
+/*layout styling*/
+.left_panel{
+	width:20%;
+	float:left;
+	position:fixed;
+}
+
+	.logo{
+		max-width: 100%;
+	}
+
+	.new_episodes{
+		display:none;
+		position:relative;
+		top:-6px;
+		width: 100%;
+	}
+
+
+		.episode_display{
+			height:150px;
+			margin-top: 40px;
+			overflow: hidden;
+		}
+			.cover_art{
+				height:150px;
+				width:150px;
+				float:left;				}
+				
+			.episode_title{
+			}
+
+			.episode_description{
+				font-size: 18px;
+			}
+
+.right_panel{
+	margin-left: 20%;
+	float:right;
+}
+
+	.top_panel{
+		width:100%;
+		position: fixed;
+		overflow: hidden;
+		z-index: 1;
+		background-color: #A33B20;
+	}
+		.nav{
+			width: 55%;
+			height: 100px;
+			float: left;
+			background-color: rgba(103, 61, 7, 0.01);
+		}
+			.nav_button{
+				list-style-type: none;
+				float:left;
+				font-size: 30px;
+				color: #FFF2F2;
+				margin-top: 30px;
+				margin-left:130px;
+			}
+
+			.social{
+				float:right;
+				position:relative;
+				right:-472px;
+				top:50px;
+				width: 25%;
+			}
+
+				.contact_button{
+					list-style-type: none;
+					float: left;
+					position:relative;
+					top:25px;
+					margin-left: 20px;
+				}
+
+				.social_icon{
+					float:right;
+				}
+
+		.player{
+			display:none;
+			width: 40%;
+			height: 100px;
+			float: left;
+			background-color: rgba(103, 61, 7, 0.15);
+		}
+
+			.player_cover_art{
+				height: 100px;
+				width:100px;
+				float: left;
+			}
+
+			.audio{
+				position: relative;
+				top:40px;
+				left:10px;
+			}
+
+	.blog{
+		padding: 20px 30px 30px 15px;
+		margin-top: 100px;
+	}
+
+		.blog_post{
+			margin: 50px 70px 70px 70px;
+		}
+
+		.written_by{
+			font-family: verdana;
+			color: #CECECE;
+		}
+
+	.shows{
+		padding: 20px 30px 30px 15px;
+		margin-top: 100px;
+		background-color: #181414;
+		clear: both;
+
+	}
+
+		.show_display{
+			height:400px;
+			width:850px;
+			margin: 20px auto;
+			padding:10px;
+		}
+
+			.show_people{
+				float:left;
+				margin-left:20px; 
+				margin-top: 20px;
+			}
+
+				.people_picture{
+					height: 200px;
+					width: 125px;
+				}
+			.show_text{
+				font-size: 22px;
+				padding: 20px;
+			}
+
+	.people{
+		background-color: #181414;
+		margin-top: 100px;
+		padding: 20px 30px 30px 15px;
+		clear:both;
+	}
+
+		.people_display{
+			height:400px;
+			width:850px;
+			margin:20px 0 30px 100px;
+			padding:60px 0 0 0;
+		}
+			
+			.people_title{
+				margin:25px 0 20px 0;
+			}
+
+			.people_display_picture{
+				height:300px;
+				width: 200px;
+				margin:30px 30px 0 0;
+				float: left;
+			}
+
+			.people_text{
+				padding:0 25px 0 0;
+			}
+	.about{
+		padding: 20px 30px 30px 15px;
+		background-color: #181414;
+		margin-top: 100px;
+		min-height: 817;
+	}
+
+	.contact_area{
+		padding: 20px 30px 30px 15px;
+		background-color: #181414;
+		margin-top: 100px;
+		min-height: 817;
+	}
+
+/*ID's*/
+#blog_button{
+	display:none;
+}
+
+#store_button{
+	display:none;
+}
+
+
+#show_art{
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+	float:left;
+}
+
+#top_person{
+	margin-top: -60px;
+}
+
+
+
+
